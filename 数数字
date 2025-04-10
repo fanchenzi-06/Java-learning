@@ -1,0 +1,22 @@
+由程序实现计算一个数的位数
+让计算机模仿人的行为=>朴素算法
+人：从左往右数数  计算机：从右往左对10取余计算位数
+package F;
+
+import java.util.Scanner;
+
+public class Shushu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in =new Scanner(System.in);
+		int number=in.nextInt();
+		int count=0;
+		while(number>0) {
+			number/=10;
+			count++;
+		}
+		System.out.println(count);
+	}
+
+}
