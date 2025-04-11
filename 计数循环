@@ -1,0 +1,14 @@
+int count=100;
+while(count>=0){
+  count=count-1;
+  System.out.println(count);
+}
+System.ou.printlin("发射");
+
+对于此类技术循环 需要关注三个问题
+1.循环执行多少次
+2.循环停下来之后  最后一轮输出的值
+3.循环结束后 count的值为多少
+
+小套路：
+当要模拟运行一个很大次数的循环  可以模拟较少的循环次数  然后做出判断
